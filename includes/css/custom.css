@@ -1,0 +1,59 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background: #1FA2FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+h1{
+    color: white;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: normal;
+}
+li{
+    height: 25px;
+    color: white;
+    background-color: #0D86D7;
+    line-height: 25px;
+}
+li:nth-child(2n){
+    background-color: #21587C;
+}
+.tamamlanmis{
+    color: black;
+    text-decoration: line-through;
+}
+span{
+    background: #A6FFCB;
+    margin-right: 5px;
+    margin-left: 10px;
+    text-align: center;
+    display: inline-block;
+    transition: 0.3s linear;
+    opacity: 0;
+}
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
+}
+.container{
+    width: 350px;
+    margin: 100px auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+input{
+    font-size: 20px;
+    width: 100%;
+    padding: 15px 15px 5px 5px;
+}
+input:focus{
+    background-color: #fff;
+    border: 3px solid #21587C;
+
+}
+/* font-family: 'Oswald', sans-serif; */
